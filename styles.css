@@ -1,0 +1,104 @@
+body {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    margin: 0;
+
+    background-color: #f0f0f0; /* Light background color */
+
+    font-family: 'Arial', sans-serif;
+
+}
+
+.container {
+
+    text-align: center;
+
+    background-color: #fff; /* White container background color */
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+
+    max-width: 600px; /* Set a max-width for responsiveness */
+
+    width: 90%; /* Adjust width for smaller screens */
+
+    margin: auto; /* Center the container */
+
+}
+
+.title {
+
+    font-family: 'Pacifico', cursive; /* Nice and catchy font */
+
+    color: #333; /* Dark text color */
+
+    margin-bottom: 20px;
+
+}
+
+#dogImage {
+
+    max-width: 100%;
+
+    border-radius: 8px;
+
+    margin-bottom: 20px;
+
+}
+
+button {
+
+    padding: 10px 20px;
+
+    font-size: 16px;
+
+    background-color: #4CAF50; /* Green button color */
+
+    color: #fff;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover {
+
+    background-color: #45a049; /* Darker green on hover */
+
+}
+
+/* Media query for smaller screens */
+
+@media (max-width: 480px) {
+
+    .container {
+
+        padding: 10px;
+
+    }
+
+    button {
+
+        padding: 8px 16px;
+
+        font-size: 14px;
+
+    }
+
+}
+
